@@ -1,6 +1,6 @@
 {
   "name": "clone-disneyplus",
-  "module": "index.ts",
+  "main": "index.ts",
   "private": true,
   "scripts": {
     "build": "gulp",
