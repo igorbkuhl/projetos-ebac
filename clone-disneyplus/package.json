@@ -9,7 +9,9 @@
   "devDependencies": {
     "@types/bun": "latest",
     "gulp": "^5.0.1",
+    "gulp-imagemin": "^9.2.0",
     "gulp-sass": "^6.0.1",
+    "gulp-uglify": "^3.0.2",
     "sass": "^1.93.2"
   },
   "peerDependencies": {

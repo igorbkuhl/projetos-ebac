@@ -104,7 +104,7 @@ body {
   border: 1px solid $primaryButtonBackground;
 
   &:hover {
-    background-color: lighten($primaryButtonBackground, 3%);
+    background-color: color.scale($primaryButtonBackground, $lightness: 3%);
   }
 
   &--secondary {
@@ -112,7 +112,7 @@ body {
     border-color: $secondaryButtonBackground;
 
     &:hover {
-      background-color: lighten($secondaryButtonBackground, 3%);
+      background-color: color.scale($secondaryButtonBackground, $lightness: 3%);
     }
   }
 
